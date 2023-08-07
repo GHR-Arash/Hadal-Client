@@ -38,4 +38,3 @@ After compilation, you can use the module in other applications by importing the
 
 ---
 
-Remember to replace the placeholder `your-username` with the appropriate value for your repository. Copy the above markdown content and paste it into your `README.md` file.
