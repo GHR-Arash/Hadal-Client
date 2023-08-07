@@ -21,12 +21,7 @@ A TypeScript module to encrypt data using a private key and send it to a specifi
 
 ## Compilation
 
-1. **Initialize TypeScript configuration** (if not already done)\:
-   ```bash
-   npx tsc --init
-   ```
-
-2. **Compile the TypeScript code**\:
+1. **Compile the TypeScript code**\:
    ```bash
    npm run build
    ```
