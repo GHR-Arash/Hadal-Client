@@ -1,6 +1,12 @@
 export declare class ApiService {
-    private apiAccessKey;
     private apiEndpoint;
-    constructor(apiAccessKey: string, apiEndpoint: string);
-    sendData(encryptedData: string, externalId: string): Promise<string>;
+    private apiAccessKey;
+    private jwtToken;
+    private readonly tokenCachePath;
+    constructor(apiEndpoint: string, apiAccessKey: string);
+    private cacheToken;
+    private loadTokenFromCache;
+    obtainToken(): Promise<string>;
+    getToken(): Promise<string>;
+    sendData(encryptedData: string, externalId: string): Promise<any>;
 }
