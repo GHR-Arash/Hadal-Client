@@ -8,14 +8,19 @@
     "build": "tsc",
     "prepublish": "npm run build"
   },
-  "keywords": ["encryption", "api", "client", "typescript"],
+  "keywords": [
+    "encryption",
+    "api",
+    "client",
+    "typescript"
+  ],
   "author": "Arash Ghoreyshi",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1"
   },
   "devDependencies": {
-    "@types/node": "^20.4.8",
+    "@types/node": "^18.17.4",
     "typescript": "^4.3.5"
   },
   "files": [
@@ -28,6 +33,5 @@
   "bugs": {
     "url": "https://github.com/GHR-Arash/hadal.git/issues"
   },
-  "homepage": "https://github.com/GHR-Arash/hadal#readme",
-  "peerDependencies": {}
+  "homepage": "https://github.com/GHR-Arash/hadal#readme"
 }
