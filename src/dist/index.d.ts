@@ -1,9 +1,11 @@
 export declare class EncryptionModule {
-    private config;
     private keyManager;
-    private encryptor;
     private apiService;
-    constructor(configPath: string);
+    private encryptor;
+    private privateKeyPath;
+    private apiEndpoint;
+    private apiAccessKey;
+    constructor(privateKeyOrConfig: string, apiEndpoint?: string, apiAccessKey?: string);
     encryptAndSend(data: string, externalId: string): Promise<string>;
 }
 export default EncryptionModule;
